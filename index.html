@@ -1,7 +1,9 @@
-<html lang="ar"><head>
+<!DOCTYPE html>
+<html lang="ar">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AIDS BLACK List ACC </title>
+    <title>AIDS BLACK List ACC</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -74,115 +76,95 @@
 </head>
 <body>
     <div class="header">
-        <h1>OcTo USE KABOS BOT TO SEE LAST AIDS </h1>
+        <h1>OcTo USE KABOS BOT TO SEE LAST AIDS</h1>
     </div>
     <div class="search-container">
-        <input type="text" id="search" placeholder="البحث عن اسم الحساب- not work now">
+        <input type="text" id="search" placeholder="البحث عن اسم الحساب" onkeyup="filterAccounts()">
     </div>
     <div class="container" id="account-container">
-        <!-- تكرار هذا الجزء لكل حساب -->
-        
-<div class="account">
+        <!-- حسابات جديدة في الأعلى -->
+        <div class="account" data-name="OXJ">
+            <img src="https://logos-world.net/wp-content/uploads/2020/11/PlayStation-Logo.png" alt="PSN Logo">
+            <div class="account-name">OXJ</div>
+        </div>
+        <div class="account" data-name="Oain">
+            <img src="https://logos-world.net/wp-content/uploads/2020/11/PlayStation-Logo.png" alt="PSN Logo">
+            <div class="account-name">Oain</div>
+        </div>
+        <!-- بقية الحسابات -->
+        <div class="account" data-name="SAR🇫🇷">
             <img src="https://logos-world.net/wp-content/uploads/2020/11/PlayStation-Logo.png" alt="PSN Logo">
             <div class="account-name">SAR🇫🇷</div>
         </div>
-<div class="account">
+        <div class="account" data-name="lyW">
             <img src="https://logos-world.net/wp-content/uploads/2020/11/PlayStation-Logo.png" alt="PSN Logo">
             <div class="account-name">lyW</div>
         </div>
-        <div class="account">
+        <!-- استمرار قائمة الحسابات كما كانت -->
+        <div class="account" data-name="prjf">
             <img src="https://logos-world.net/wp-content/uploads/2020/11/PlayStation-Logo.png" alt="PSN Logo">
             <div class="account-name">prjf</div>
         </div>
-        <div class="account">
+        <div class="account" data-name="hhhw 🇨🇦">
             <img src="https://logos-world.net/wp-content/uploads/2020/11/PlayStation-Logo.png" alt="PSN Logo">
             <div class="account-name">hhhw 🇨🇦</div>
         </div>
-        <div class="account">
+        <div class="account" data-name="i-j">
             <img src="https://logos-world.net/wp-content/uploads/2020/11/PlayStation-Logo.png" alt="PSN Logo">
             <div class="account-name">i-j</div>
         </div>
-        <div class="account">
+        <div class="account" data-name="GRS">
             <img src="https://logos-world.net/wp-content/uploads/2020/11/PlayStation-Logo.png" alt="PSN Logo">
             <div class="account-name">GRS</div>
         </div>
-        <div class="account">
+        <div class="account" data-name="LbGh 🇺🇸">
             <img src="https://logos-world.net/wp-content/uploads/2020/11/PlayStation-Logo.png" alt="PSN Logo">
             <div class="account-name">LbGh 🇺🇸</div>
         </div>
-        <div class="account">
+        <div class="account" data-name="ihz🇮🇹">
             <img src="https://logos-world.net/wp-content/uploads/2020/11/PlayStation-Logo.png" alt="PSN Logo">
             <div class="account-name">ihz🇮🇹</div>
         </div>
-        <div class="account">
+        <div class="account" data-name="Guqo 🇺🇸">
             <img src="https://logos-world.net/wp-content/uploads/2020/11/PlayStation-Logo.png" alt="PSN Logo">
             <div class="account-name">Guqo 🇺🇸</div>
         </div>
-        <div class="account">
+        <div class="account" data-name="Bi__🇵🇹">
             <img src="https://logos-world.net/wp-content/uploads/2020/11/PlayStation-Logo.png" alt="PSN Logo">
             <div class="account-name">Bi__🇵🇹</div>
         </div>
-        <div class="account">
+        <div class="account" data-name="WP_j 🇸🇦">
             <img src="https://logos-world.net/wp-content/uploads/2020/11/PlayStation-Logo.png" alt="PSN Logo">
             <div class="account-name">WP_j 🇸🇦</div>
         </div>
-        <div class="account">
+        <div class="account" data-name="xNIG🇨🇦">
             <img src="https://logos-world.net/wp-content/uploads/2020/11/PlayStation-Logo.png" alt="PSN Logo">
             <div class="account-name">xNIG🇨🇦</div>
         </div>
-        <div class="account">
+        <div class="account" data-name="fffk🇦🇺">
             <img src="https://logos-world.net/wp-content/uploads/2020/11/PlayStation-Logo.png" alt="PSN Logo">
             <div class="account-name">fffk🇦🇺</div>
         </div>
-        <div class="account">
+        <div class="account" data-name="OnlyNskr-🇺🇸">
             <img src="https://logos-world.net/wp-content/uploads/2020/11/PlayStation-Logo.png" alt="PSN Logo">
             <div class="account-name">OnlyNskr-🇺🇸</div>
         </div>
-        <div class="account">
+        <div class="account" data-name="xeverLost 🇺🇸">
             <img src="https://logos-world.net/wp-content/uploads/2020/11/PlayStation-Logo.png" alt="PSN Logo">
             <div class="account-name">xeverLost 🇺🇸</div>
         </div>
-        <div class="account">
+        <div class="account" data-name="Zr32🇩🇪">
             <img src="https://logos-world.net/wp-content/uploads/2020/11/PlayStation-Logo.png" alt="PSN Logo">
             <div class="account-name">Zr32🇩🇪</div>
         </div>
-        <div class="account">
+        <div class="account" data-name="Brnk 🇺🇸">
             <img src="https://logos-world.net/wp-content/uploads/2020/11/PlayStation-Logo.png" alt="PSN Logo">
             <div class="account-name">Brnk 🇺🇸</div>
         </div>
-        <div class="account">
+        <div class="account" data-name="KMP 🇺🇸">
             <img src="https://logos-world.net/wp-content/uploads/2020/11/PlayStation-Logo.png" alt="PSN Logo">
             <div class="account-name">KMP 🇺🇸</div>
         </div>
-        <div class="account">
+        <div class="account" data-name="bin_ 🇭🇰">
             <img src="https://logos-world.net/wp-content/uploads/2020/11/PlayStation-Logo.png" alt="PSN Logo">
-            <div class="account-name">bin_ 🇭🇰</div>
-        </div>
-        <div class="account">
-            <img src="https://logos-world.net/wp-content/uploads/2020/11/PlayStation-Logo.png" alt="PSN Logo">
-            <div class="account-name">nco🇫🇷</div>
-        </div>
-        <div class="account">
-            <img src="https://logos-world.net/wp-content/uploads/2020/11/PlayStation-Logo.png" alt="PSN Logo">
-            <div class="account-name">IDC 🇺🇸</div>
-        </div>
-        <div class="account">
-            <img src="https://logos-world.net/wp-content/uploads/2020/11/PlayStation-Logo.png" alt="PSN Logo">
-            <div class="account-name">HHHD 🇫🇷</div>
-        </div>
-        <div class="account">
-            <img src="https://logos-world.net/wp-content/uploads/2020/11/PlayStation-Logo.png" alt="PSN Logo">
-            <div class="account-name">ivvo🇲🇽</div>
-        </div>
-        <div class="account">
-            <img src="https://logos-world.net/wp-content/uploads/2020/11/PlayStation-Logo.png" alt="PSN Logo">
-            <div class="account-name">PEGG🇨🇦</div>
-        </div>
-        <div class="account">
-            <img src="https://logos-world.net/wp-content/uploads/2020/11/PlayStation-Logo.png" alt="PSN Logo">
-            <div class="account-name">ODF🇩🇪</div>
-        </div>
-    </div>
-
-
-</body></html>
+            <div class
